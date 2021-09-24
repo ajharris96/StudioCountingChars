@@ -9,7 +9,7 @@ namespace StudioCountingChars
     {
         static void Main(string[] args)
         {
-            string fileName = @"../../../stringfile.txt";
+            string fileName = @"/Users/andrew300/Desktop/csharp/StudioCountingChars/StudioCountingChars/stringfile.txt";
             string fromTextFile = File.ReadAllText(fileName);
 
             //Console.WriteLine("Enter a string:");
